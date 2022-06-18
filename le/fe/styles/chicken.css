@@ -1,0 +1,44 @@
+#cproducts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#filter {
+  width: 10%;
+  height: 30px;
+  background-color: transparent;
+  border-color: rgb(238, 228, 228);
+  border: none;
+  border: 1px solid rgb(238, 228, 228);
+}
+.categories select {
+  /* width: 10%; */
+  height: 30px;
+  background-color: transparent;
+  /* border-color: rgb(238, 228, 228); */
+  margin-left: 10px;
+  width: fit-content;
+  background: #fff;
+  border: 1px solid #dee2e6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  overflow-x: auto;
+}
+.popovr span:hover {
+  background-color: rgb(160, 158, 158);
+}
+.popovre span:hover {
+  background-color: rgb(160, 158, 158);
+}
+.popover {
+    background: rgb(160, 158, 158);
+} 
+.category-details-footer{
+    font-size: smaller;
+}
+li {
+    text-decoration: none;
+}
+td{
+    font-size: smaller;
+}
